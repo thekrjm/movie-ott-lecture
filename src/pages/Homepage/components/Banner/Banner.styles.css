@@ -1,0 +1,15 @@
+.banner{
+    height: 56vh;
+    width: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    color: white;
+}
+.banner::before{
+    content: '';
+    background: linear-gradient(to top, rgb(46, 46, 46), transparent);
+    position: absolute;
+    left: 0;
+    height: 56vh;
+    width: 100%;
+}
