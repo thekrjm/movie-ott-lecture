@@ -1,15 +1,28 @@
-.banner{
-    height: 56vh;
-    width: 100%;
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    color: white;
+.banner {
+  height: 56vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
-.banner::before{
-    content: '';
-    background: linear-gradient(to top, rgb(46, 46, 46), transparent);
-    position: absolute;
-    left: 0;
-    height: 56vh;
-    width: 100%;
+.banner::before {
+  content: '';
+  background: linear-gradient(to top, rgb(46, 46, 46), transparent);
+  position: absolute;
+  left: 0;
+  height: 56vh;
+  width: 100%;
+}
+
+.banner-text-area {
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+  height: 100%;
+  padding: 20px;
+}
+
+.banner-text-area > * {
+  z-index: 2;
 }

@@ -1,13 +1,14 @@
 import React from 'react';
 import './Homepage.styles.css';
 import Banner from './components/Banner/Banner';
+import PopularMovieSlide from './components/PopularMovieSlide/PopularMovieSlide';
 
 const Homepage = () => {
   return (
     <div className='test'>
-      <span>db</span>
       <div>
         <Banner />
+        <PopularMovieSlide />
       </div>
     </div>
   );
